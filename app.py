@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(page_title="ポーカー精算", layout="centered")
-st.title("🃏 ポーカー精算アプリ")
+st.title("🃏 ポーカー精算アプリv2")
 
 st.write("Buy-in と Cash-out を入力してください")
 
@@ -45,4 +45,5 @@ if st.button("精算する"):
             if losers[i][1] == 0:
                 i += 1
             if winners[j][1] == 0:
+
                 j += 1
